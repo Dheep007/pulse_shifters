@@ -28,7 +28,7 @@ socketio = SocketIO(app)
 
 # Initialize the client with credentials
 credentials = service_account.Credentials.from_service_account_file(
-    r"C:\Users\Dhas prakash\Desktop\cloud vision\pulse-shifters-fcd3684c2dde.json"
+    r"/home/sinthanai/S_I_H/pulse-shifters-fcd3684c2dde.json"
 )
 client = vision.ImageAnnotatorClient(credentials=credentials)
 
