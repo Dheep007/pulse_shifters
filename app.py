@@ -33,22 +33,22 @@ credentials = service_account.Credentials.from_service_account_file(
 client = vision.ImageAnnotatorClient(credentials=credentials)
 
 
-UPLOAD_DIRECTORY_IMAGE = r"C:\Users\Dhas prakash\Desktop\S_I_H\canvas_images" 
+UPLOAD_DIRECTORY_IMAGE = r"/home/sinthanai/S_I_H/canvas_images" 
 if not os.path.exists(UPLOAD_DIRECTORY_IMAGE):
     os.makedirs(UPLOAD_DIRECTORY_IMAGE)
 
-UPLOAD_DIRECTORY_AUDIO = r"C:\Users\Dhas prakash\Desktop\S_I_H\canvas_images_audios"
+UPLOAD_DIRECTORY_AUDIO = r"/home/sinthanai/S_I_H/canvas_images_audios"
 if not os.path.exists(UPLOAD_DIRECTORY_AUDIO):
     os.makedirs(UPLOAD_DIRECTORY_AUDIO)
  
-IMAGE_DIRECTORY = r"C:\Users\Dhas prakash\Desktop\S_I_H\saved_images"
+IMAGE_DIRECTORY = r"/home/sinthanai/S_I_H/saved_images"
 if not os.path.exists(IMAGE_DIRECTORY):
     os.makedirs(IMAGE_DIRECTORY)
 
 
 
 # Initialize the database
-conn = mysql.connector.connect(host='localhost', user='root', password='1602', database='audio_file', autocommit=True, connection_timeout=60)
+conn = mysql.connector.connect(host='localhost', user='root', password='root', database='audio_file', autocommit=True, connection_timeout=60)
 c = conn.cursor()
 
 # Ensure the table exists
