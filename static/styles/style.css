@@ -1,0 +1,751 @@
+.body-image-bg-back {
+    background: linear-gradient(135deg, hwb(300 4% 95%), hsl(213, 85%, 3%));
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-back-carosil {
+    background-size: cover;
+    color: black;
+    height: 100%;
+}
+
+.image-carosil {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.heading-carosil {
+    color: #f0e9e9d7;
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+.container-carosel {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.para-carosil {
+    color: #ffffff;
+    font-family: "Arial";
+    font-weight: Bold;
+}
+
+.layer {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.layer h2 {
+    color: #007bff;
+}
+
+.layer p {
+    color: #555;
+}
+
+
+/* Additional responsiveness if needed */
+
+@media (max-width: 768px) {
+    .layer {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .layer {
+        padding: 10px;
+    }
+}
+
+.bg-background {
+    background-image: url("https://t4.ftcdn.net/jpg/08/37/09/51/360_F_837095124_7cWnsyYz57wdTXdnUe5QIxx9tVEoAQZM.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+.heading-head {
+    font-size: 45px;
+    text-align: center;
+    font-family: "arial";
+    color: #ffffff;
+    padding: 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.button-0 {
+    background: linear-gradient(135deg, hwb(300 21% 44%), hsl(62, 96%, 45%));
+    border-radius: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.button-1 {
+    background: linear-gradient(135deg, hwb(355 5% 16%), hsl(238, 54%, 49%));
+    background-size: cover;
+    border-radius: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.button-2 {
+    background: linear-gradient(135deg, hwb(51 17% 30%), hsl(329, 94%, 51%));
+    background-size: cover;
+    border-radius: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.button-3 {
+    background: linear-gradient(135deg, hwb(300 10% 25%), hsl(133, 89%, 45%));
+    background-size: cover;
+    border-radius: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.heading {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: red;
+}
+
+.bg-background-2 {
+    background-image: url("https://marketplace.canva.com/EAFUF6j2YRI/1/0/800w/canva-blue-clouds-hello-january-greeting-instagram-post-IsfQPLaAAQs.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+.para-space {
+    border-color: black;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 4px;
+    width: 100%;
+    height: 80vh;
+    padding: 30px;
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.background-logo-image {
+    background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/gorgeous-sunset-over-the-sea-free-image.jpeg?h=800&quality=80");
+    background-size: cover;
+    height: 100vh;
+}
+
+.container-page {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/012/887/922/non_2x/rainbow-bokeh-soft-light-abstract-background-eps-10-illustration-bokeh-particles-background-decoration-vector.jpg");
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    margin: 10px;
+    height: 400px;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.button {
+    height: 35px;
+    margin: 5px 0px;
+    background-color: skyblue;
+    border: none;
+    color: #333;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+    width: 100%;
+}
+
+input {
+    margin: 10px 10px;
+    height: 35px;
+    padding: 7px;
+}
+
+.image-2 {
+    height: 20vh;
+    width: 100;
+    border-radius: 50px;
+    margin: 7px;
+}
+
+
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body styling */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* Header */
+
+.header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.working-head {
+    font-size: 30px;
+}
+
+
+/* Main layout */
+
+main {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+
+/* Editor section */
+
+.editor {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    flex: 1;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+    resize: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Tools section */
+
+.tools {
+    flex: 1;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tools h2 {
+    margin-bottom: 0.5rem;
+}
+
+.tools ul {
+    list-style: none;
+}
+
+.tools li {
+    margin-bottom: 0.5rem;
+}
+
+.utton {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #fffff;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body styling */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+
+/* Header */
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+/* Main content */
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+
+/* Toolbar */
+
+.toolbar {
+    margin-bottom: 1rem;
+}
+
+.button-writing-page {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 70px;
+}
+
+input[type="range"] {
+    width: 100px;
+}
+
+
+/* Canvas */
+
+canvas {
+    flex: 1;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: crosshair;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+
+/* Base Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 
+  Project: CSS Glowing Button
+  Created: Sunday, 06 March 2022
+  Author: Jamshid Elmi 
+  Tutorial: https://youtu.be/b_8fHNIHFk4
+
+
+/* button */
+
+.btn {
+    border: none;
+    outline: none;
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+}
+
+.btn::after {
+    background-color: #333;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+
+/* glow */
+
+.btn::before {
+    content: "";
+    background: linear-gradient(45deg, #FF0000, #FF7300, #FFFB00, #48FF00, #00FFD5, #002BFF, #FF00C8, #FF0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+/* hover */
+
+.btn:hover::before {
+    opacity: 1;
+}
+
+.btn:active:after {
+    background: transparent;
+}
+
+.btn:active {
+    color: #000;
+    font-weight: bold;
+}
+
+.convert-button {
+    width: 12vh;
+}
+
+.body {
+    background: linear-gradient(135deg, #f06, #48c6ef);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Button container section */
+
+.button-exam-page {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 70px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.button-exam-page:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(176, 33, 33, 0.1);
+}
+
+.button-exam-page img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.button-exam-page img:hover {
+    transform: rotate(15deg);
+}
+
+.button-exam-page p {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* Timer Button */
+
+.btn-primary {
+    background-color: #ff6f61;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e84c3d;
+    transform: scale(1.1);
+}
+
+
+/* Calculator Styles */
+
+.calculator {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 20px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.display {
+    width: 100%;
+    height: 50px;
+    font-size: 26px;
+    text-align: right;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.btn {
+    background-color: #f06;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn.operator {
+    background-color: #48c6ef;
+}
+
+.btn:hover {
+    background-color: #ff9a8b;
+    transform: scale(1.1);
+}
+
+.btn.operator:hover {
+    background-color: #ffb74d;
+}
+
+.btn:active {
+    background-color: #ff6f5f;
+}
+
+
+/* Additional Bottom Section with Buttons */
+
+.bottom-buttons button {
+    background-color: #66bb6a;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.bottom-buttons button:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+}
+
+.timer-exam-page {
+    text-align: right;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.navbar-head {
+    font-weight: bold;
+    font-size: 0px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.buttons-color-calci-page {
+    margin-left: 20px;
+}
+
+.study-mode-attribute {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Arial";
+    color: #388e3c;
+    padding: 50px;
+    margin: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-inline: 30px;
+}
+
+.study-mode-bg-back {
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.bg-back-whole-page-study {
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-back-studypage {
+    border-radius: 30px;
+    border-color: #333;
+    border-style: solid;
+    border-width: 2px;
+    width: 140vh;
+    height: 30vh;
+    background: linear-gradient(135deg, rgba(91, 120, 80, 0.63), #ef7448);
+    margin: 20px;
+    padding: 50px;
+    background-size: cover;
+    margin-top: 60px;
+}
+
+.heading-styudypage {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.heading-styudypage-2 {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.attribute-href {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-weight: bold;
+    font-style: arial;
+    font-size: 32px;
+}
+
+.button-study-page {
+    background-color: aqua;
+    height: 40px;
+    border-radius: 10px;
+    width: 100px;
+    border-width: 0px;
+    border-style: solid;
+}
+
+.align-items {
+    text-align: center;
+}
+
+.alignment-button {
+    text-align: center;
+}
+.timer-display {
+    font-size: 2rem;
+    margin: 20px 0;
+}
