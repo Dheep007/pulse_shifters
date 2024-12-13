@@ -13,7 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="https://cdn.socket.io/4.5.1/socket.io.min.js"></script>
 </head>
 
 <body>
@@ -111,7 +111,7 @@
 
 
                     <div class=" col-12 col-lg-12 col-md-12 col-sm-12">
-                        <button class="button-0" onclick="display('sectionfirstpage')">
+                        <button class="button-0 mb-3" onclick="display('sectionfirstpage')">
                             <div class="d-flex flex-row justify-content-start">
                                 <img src="https://listoffreeware.com/wp-content/uploads/TTS.png" class="image" />
                                 <div class="container-element">
@@ -124,7 +124,7 @@
 
                     <div class="col-12m col-lg-12 col-md-12 col-sm-12">
 
-                        <button class="button-1" onclick="display('sectionsecondpage')">
+                        <button class="button-1 mb-3" onclick="display('sectionsecondpage')">
                             <div class="d-flex flex-row justify-content-start">
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcHq5VpItUzYeJfY9bhyC7VWeM3hij8_OQfw&s" class="image" />
                                 <div class="container-element">
@@ -138,7 +138,7 @@
 
                     <div class="col-12 col-lg-12 col-md-12 col-sm-12">
 
-                        <button class="button-2" onclick="display('sectionstudypage')">
+                        <button class="button-2 mb-3" onclick="display('sectionstudypage')">
                             <div class="d-flex flex-row justify-content-start">
                                 <img src="https://static.vecteezy.com/system/resources/previews/009/189/560/non_2x/two-students-sitting-on-the-floor-reading-an-educational-book-illustration-pro-download-vector.jpg" class="image" />
                                 <div class="container-element">
@@ -151,7 +151,7 @@
 
                     <div class="col-12 col-lg-12 col-md-12 col-sm-12">
 
-                        <button class="button-3" onclick="display('sectionexamloginpage')">
+                        <button class="button-3 mb-3" onclick="display('sectionexamloginpage')">
                             <div class="d-flex flex-row justify-content-start">
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSqjUwJkPbuMuuf1oK3x3QK7qh3wHZPTk-hQ&s" class="image" />
                                 <div class="container-element">
@@ -390,34 +390,100 @@
 
 
 <div id="sectionstudypage">
-    <div class="bg-back-whole-page-study">
-        <div class="container">
-            <div class="row">
-                <a href="https://dlearners.com/" target="_blank" class="attribute-href  bg-back-studypage">
-                    <div>
-                        <div class="align-items">
-                            <h1 class="heading-styudypage">study link</h1>
-                            <h1 class="heading-styudypage">D Learners</h1>
+            <div class="bg-back-whole-page-study">
+                <div class="container">
+                    <div class="row">
+                        <a href="https://dlearners.com/" target="_blank" class="attribute-href  bg-back-studypage">
+                            <div>
+                                <div class="align-items">
+                                    <h1 class="heading-styudypage"> study link ,D Learners</h1>
+                                </div>
+                            </div>
+                        </a>
+        
+        
+        
+        
+                        <div class="bg-back-studypage">
+                            <div class="align-items">
+                                <h1 class="heading-styudypage-2">Question Paper Mode</h1>
+                            </div>
                         </div>
+        
+        
+        
+                        <div class="bg-back-studypage">
+                            <div class="align-items">
+                                <h1 class="heading-styudypage-2" onclick="display('sectioncalculatorscientific')">Scientific calculator<br>+ , -, *, %</h1>
+                            </div>
+                        </div>
+        
                     </div>
-                </a>
-
-
-
-
-                <div class="bg-back-studypage">
-                    <div class="align-items">
-                        <h1 class="heading-styudypage-2">speech to text</h1>
-                        <button class="button-study-page">copy text</button>
+                    <div class="alignment-button">
+                        <button class="btn btn-danger mt-3" onclick="display('sectionhomepage')">back</button>
                     </div>
-                </div>
-                <div>
-                    <button class="btn btn-primary" onclick="display('sectionhomepage')">Back</button>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+        
+        
+        
+        
+        
+        
+        
+        <div id="sectioncalculatorscientific">
+            <div class="body-scientific-calci ">
+                <div class="calculator-2">
+                    <input type="text" id="display" class="display" disabled>
+                    <div class="buttons">
+                        <!-- First Row -->
+                        <button class="button-claci" onclick="clearDisplay()">C</button>
+                        <button class="button-claci" onclick="deleteLast()">DEL</button>
+                        <button class="button-claci" onclick="appendOperator('%')">%</button>
+                        <button class="button-claci" onclick="appendOperator('/')">/</button>
+        
+                        <!-- Second Row -->
+                        <button class="button-claci" onclick="appendNumber(7)">7</button>
+                        <button class="button-claci" onclick="appendNumber(8)">8</button>
+                        <button class="button-claci" onclick="appendNumber(9)">9</button>
+                        <button class="button-claci" onclick="appendOperator('')"></button>
+        
+                        <!-- Third Row -->
+                        <button class="button-claci" onclick="appendNumber(4)">4</button>
+                        <button class="button-claci" onclick="appendNumber(5)">5</button>
+                        <button class="button-claci" onclick="appendNumber(6)">6</button>
+                        <button class="button-claci" onclick="appendOperator('-')">-</button>
+        
+                        <!-- Fourth Row -->
+                        <button class="button-claci" onclick="appendNumber(1)">1</button>
+                        <button class="button-claci" onclick="appendNumber(2)">2</button>
+                        <button class="button-claci" onclick="appendNumber(3)">3</button>
+                        <button class="button-claci" onclick="appendOperator('+')">+</button>
+        
+                        <!-- Fifth Row -->
+                        <button class="button-claci" onclick="appendNumber(0)">0</button>
+                        <button class="button-claci" onclick="appendDot()">.</button>
+                        <button class="button-claci" onclick="calculate()">=</button>
+                        <button class="button-claci" onclick="appendFunction('Math.sin')">sin</button>
+        
+                        <!-- Sixth Row -->
+                        <button class="button-claci" onclick="appendFunction('Math.cos')">cos</button>
+                        <button class="button-claci" onclick="appendFunction('Math.tan')">tan</button>
+                        <button class="button-claci" onclick="appendFunction('Math.sqrt')">√</button>
+                        <button class="button-claci" onclick="appendFunction('Math.log')">log</button>
+        
+                        <!-- Seventh Row -->
+                        <button class="button-claci" onclick="appendFunction('Math.exp')">exp</button>
+                        <button class="button-claci" onclick="appendFunction('Math.pow', 2)">x²</button>
+                    </div>
+                </div>
+        
+        
+        
+        
+            </div>
+        </div>
 
 
 
